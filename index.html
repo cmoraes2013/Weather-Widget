@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font Awesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <!--This is the header with a moon icon-->
+    <div class="header">
+        <h1><i class="far fa-moon"></i></i> Weather Dashboard </h1>
+    </div>
+    <!--Search Box-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--this is where the daily weather is-->
+            <!--Search Area-->
+            <aside class="col-md-4 bg-light">
+                <h5 class="mt-1">Search for a City:</h5>
+                <div class="form-inline form-group">
+                    <input class="form-control" type="text" id="search-value">
+                    <button class="btn btn-dark" id="search-button"><i class="fab fa-searchengin"></i></button>
+                </div>
+    <!--This is where the user's previous city searches will appear-->
+    <div class="recentSearches" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+            </aside>
+            <!--This will display the data from the ajax call-->
+            <div class="col-lg-9">
+                <div class="today">
+                    <div class="forecast">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--Main JS File-->
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
