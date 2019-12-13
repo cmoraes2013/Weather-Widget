@@ -31,3 +31,11 @@ Notes:
         append data to search weather function
 
     *create other functions for local storage and appending to the side?
+
+
+
+    // GET WEATHER URL AND KEY SET //
+    //DO THE FIRST 3 FUNCTIONS AT LEASTTTTT// 
+    //LOCAL STORAGEEEE!!!!!!//
+
+    //FRIDAY-- 5 DAY FORECAST
